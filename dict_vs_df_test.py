@@ -62,3 +62,19 @@ for test, name in zip(tests_fixed, test_names):
 #   .iloc |  22.1832 s
 #    .iat |  15.4502 s
 # --------------------
+# Desktop Home
+# --------------------
+# Now Testing Random Calls
+#  2D dict |   2.3409 s
+#     .loc |   7.1974 s
+#      .at |   5.5423 s
+#    .iloc |   7.5247 s
+#     .iat |   5.5772 s
+#
+# Now Testing Fixed Calls
+#  2D dict |   0.0500 s
+#     .loc |   4.6379 s
+#      .at |   3.1192 s
+#    .iloc |   5.1365 s
+#     .iat |   3.3891 s
+# --------------------
