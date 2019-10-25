@@ -78,3 +78,17 @@ for test, name in zip(tests_fixed, test_names):
 #    .iloc |   5.1365 s
 #     .iat |   3.3891 s
 # --------------------
+# HTPC
+# Now Testing Random Calls
+#  2D dict |   2.9072 s
+#     .loc |   9.6785 s
+#      .at |   7.3001 s
+#    .iloc |  10.1950 s
+#     .iat |   7.7604 s
+# 
+# Now Testing Fixed Calls
+#  2D dict |   0.0717 s
+#     .loc |   6.3673 s
+#      .at |   4.2177 s
+#    .iloc |   6.9222 s
+#     .iat |   4.5400 s
